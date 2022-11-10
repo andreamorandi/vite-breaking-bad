@@ -1,0 +1,13 @@
+@use "./partials/variables" as *;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/@fontsource/roboto/index.css";
+
+body {
+    font-family: "Roboto";
+    background-color: $primary-color;
+}
+
+img {
+    max-width: 100%;
+}
