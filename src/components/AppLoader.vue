@@ -5,12 +5,12 @@ export default {
 </script>
 
 <template>
-    <h2 class="text-center text-white">Loading...</h2>
+    <h2 class="text-center text-black">Loading...</h2>
 </template>
 
 <style lang="scss" scoped>
 h2 {
     font-size: 4rem;
-    margin: 4rem 0;
+    padding: 4rem 0;
 }
 </style>

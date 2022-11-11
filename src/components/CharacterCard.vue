@@ -11,8 +11,8 @@ export default {
     <div class="character-item text-center">
         <img :src="character.img" :alt="`${character.name} image`">
         <h5 class="m-3">{{ character.name }}</h5>
-        <h6 class="text-secondary">Breaking Bad</h6>
-        <h6 class="text-secondary">Alive</h6>
+        <h6 class="text-secondary">{{ character.category }}</h6>
+        <h6 class="text-secondary">{{ character.status }}</h6>
     </div>
 </template>
 
